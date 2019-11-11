@@ -24,49 +24,49 @@ class  eyemakeup extends StatelessWidget{
     ),
   );
   YoutubePlayerController _controller3 = YoutubePlayerController(
-    initialVideoId: '6dddNPjSY5Y',
+    initialVideoId: 'T4BxaJ3j5Uc',
     flags: YoutubePlayerFlags(
       autoPlay: true,
       mute: true,
     ),
   );
   YoutubePlayerController _controller4 = YoutubePlayerController(
-    initialVideoId: '6dddNPjSY5Y',
+    initialVideoId: 'BuPZjBlmyD4',
     flags: YoutubePlayerFlags(
       autoPlay: true,
       mute: true,
     ),
   );
   YoutubePlayerController _controller5 = YoutubePlayerController(
-    initialVideoId: '6dddNPjSY5Y',
+    initialVideoId: 'io3WdVxwi_Y',
     flags: YoutubePlayerFlags(
       autoPlay: true,
       mute: true,
     ),
   );
   YoutubePlayerController _controller6 = YoutubePlayerController(
-    initialVideoId: '6dddNPjSY5Y',
+    initialVideoId: '_K7R9lDjPEI',
     flags: YoutubePlayerFlags(
       autoPlay: true,
       mute: true,
     ),
   );
   YoutubePlayerController _controller7 = YoutubePlayerController(
-    initialVideoId: '6dddNPjSY5Y',
+    initialVideoId: '4MDy2bI4-Kc',
     flags: YoutubePlayerFlags(
       autoPlay: true,
       mute: true,
     ),
   );
   YoutubePlayerController _controller8 = YoutubePlayerController(
-    initialVideoId: '6dddNPjSY5Y',
+    initialVideoId: 'W2-viqnVRYY',
     flags: YoutubePlayerFlags(
       autoPlay: true,
       mute: true,
     ),
   );
   YoutubePlayerController _controller9 = YoutubePlayerController(
-    initialVideoId: '6dddNPjSY5Y',
+    initialVideoId: 'whnkEItFEcE',
     flags: YoutubePlayerFlags(
       autoPlay: true,
       mute: true,
@@ -77,60 +77,119 @@ class  eyemakeup extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Eye Makeup"),
-        ),
-        body: new Padding(
-            padding: const EdgeInsets.only(top: 12.0),
-            child: new SingleChildScrollView(
-                child: new ConstrainedBox(
-                    constraints: new BoxConstraints(),
-                    child: new Column(children: <Widget>[
+        title: Text("Eye Makeup"),
+    ),
+    body: new Padding(
+    padding: const EdgeInsets.only(top: 12.0),
+    child: new SingleChildScrollView(
+    child: new ConstrainedBox(
+    constraints: new BoxConstraints(),
+    child: new Column(children: <Widget>[
 
-                      new Column(
-                        children: <Widget>[
-                          new Text('Smokey eye Makeup'),
-                          YoutubePlayer(
-                            controller: _controller,
-                            showVideoProgressIndicator: true,
-                          )
-                          ,
-                        ],
-                      ),
-                      new  Column(
-                        children: <Widget>[
-                          new Text('Simple Eye Makeup'),
-                          YoutubePlayer(
-                            controller: _controller1,
-                            showVideoProgressIndicator: true,
-                          )
-                        ],
-                      ),
-                      new Column(
-                        children: <Widget>[
-                          new Text('Glitter Eye Makeup'),
-                          YoutubePlayer(
-                            controller: _controller2,
-                            showVideoProgressIndicator: true,
-                          )
-                        ],
-                      ),
-                      new  Column(
-                        children: <Widget>[
-                          new Text('Eye Liner Makeup'),
-                          YoutubePlayer(
-                            controller: _controller,
-                            showVideoProgressIndicator: true,
-                          )
-                        ],
+    new Column(
+    children: <Widget>[
+    new Text('Smokey eye Makeup'),
+    YoutubePlayer(
+    controller: _controller,
+    showVideoProgressIndicator: true,
+    )
+    ,
+    ],
+    ),
+    new  Column(
+    children: <Widget>[
+    new Text('Simple Eye Makeup'),
+    YoutubePlayer(
+    controller: _controller1,
+    showVideoProgressIndicator: true,
+    )
+    ],
+    ),
+    new Column(
+    children: <Widget>[
+    new Text('Glitter Eye Makeup'),
+    YoutubePlayer(
+    controller: _controller2,
+    showVideoProgressIndicator: true,
+    )
+    ],
+    ),
+    new  Column(
+    children: <Widget>[
+    new Text('Eye Liner Makeup'),
+    YoutubePlayer(
+    controller: _controller3,
+    showVideoProgressIndicator: true,
+    )
+    ],
 
-                      ),
-                    ]
-                    )
-                )
+    ),
+    new  Column(
+    children: <Widget>[
+    new Text('Eye Liner Makeup'),
+    YoutubePlayer(
+    controller: _controller4,
+    showVideoProgressIndicator: true,
+    )
+    ],
 
-            )
-        )
+    ),
+    new  Column(
+    children: <Widget>[
+    new Text('Eye Liner Makeup'),
+    YoutubePlayer(
+    controller: _controller5,
+    showVideoProgressIndicator: true,
+    )
+    ],
 
+    ),
+    new  Column(
+    children: <Widget>[
+    new Text('Eye Liner Makeup'),
+    YoutubePlayer(
+    controller: _controller6,
+    showVideoProgressIndicator: true,
+    )
+    ],
+
+    ),
+    new  Column(
+    children: <Widget>[
+    new Text('Eye Liner Makeup'),
+    YoutubePlayer(
+    controller: _controller7,
+    showVideoProgressIndicator: true,
+    )
+    ],
+
+    ),
+    new  Column(
+    children: <Widget>[
+    new Text('Eye Liner Makeup'),
+    YoutubePlayer(
+    controller: _controller8,
+    showVideoProgressIndicator: true,
+    )
+    ],
+
+    ),
+    new  Column(
+    children: <Widget>[
+    new Text('Eye Liner Makeup'),
+    YoutubePlayer(
+    controller: _controller9,
+    showVideoProgressIndicator: true,
+    )
+    ],
+
+    ),
+    ]
+    )
+
+    )
+    )
+    )
     );
   }
 }
