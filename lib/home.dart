@@ -27,10 +27,10 @@ List<StaggeredTile> _staggeredTiles = const <StaggeredTile>[
 
 
 List<Widget> _tiles = const <Widget>[
-  const _makeup(1,'https://image.freepik.com/free-vector/closed-eyes-with-long-eyelashes_23-2147508727.jpg?1'),
-  const _makeup(2,'https://www.lethalcosmetics.com/wp-content/uploads/2018/11/Anaemia-460x460.jpg'),
-  const _makeup(3,'https://image.freepik.com/free-vector/vector-3d-realistic-poster-with-concealer-beige-cosmetics-product-glass-package_33099-1245.jpg'),
-  const _makeup(4,'https://gl-images.condecdn.net/image/9WMpzrX9D6G/crop/405/f/screen.jpg'),
+  const _makeup(1,'Assets/eyemakeup.jpg'),
+  const _makeup(2,'Assets/lipmakeup.jpg'),
+  const _makeup(3,'Assets/foundation.jpg'),
+  const _makeup(4,'conceler'),
   const _makeup(5,'https://i1.wp.com/metro.co.uk/wp-content/uploads/2017/02/517302354.jpg?quality=90&strip=all&zoom=1&resize=644%2C560&ssl=1'),
   const _makeup(6,'https://files.myglamm.com/images/product/web/medium/pose-hd-bronzer-duo-2.jpeg'),
   const _makeup(7,'https://i01.hsncdn.com/is/image/HomeShoppingNetwork/prodfull/it-cosmetics-naturally-pretty-cc-anti-aging-blush-and-b-d-20181102074227127~644893.jpg'),
@@ -289,7 +289,7 @@ class _makeup extends StatelessWidget {
           child: new Padding(
             padding: const EdgeInsets.all(4.0),
             child: Image(
-              image: NetworkImage(
+              image: AssetImage(
                   image
               ),
             ),
