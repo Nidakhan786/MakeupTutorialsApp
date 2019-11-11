@@ -5,71 +5,61 @@ class  eyemakeup extends StatelessWidget{
   YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: '6dddNPjSY5Y',
     flags: YoutubePlayerFlags(
-      autoPlay: true,
-      mute: true,
+      autoPlay: false,
     ),
   );
   YoutubePlayerController _controller1 = YoutubePlayerController(
     initialVideoId: 'pPqySxcuSbo',
     flags: YoutubePlayerFlags(
-      autoPlay: true,
-      mute: true,
+      autoPlay: false,
     ),
   );
   YoutubePlayerController _controller2 = YoutubePlayerController(
     initialVideoId: 'w3p3dBhQYko',
     flags: YoutubePlayerFlags(
-      autoPlay: true,
-      mute: true,
+      autoPlay: false,
     ),
   );
   YoutubePlayerController _controller3 = YoutubePlayerController(
     initialVideoId: 'T4BxaJ3j5Uc',
     flags: YoutubePlayerFlags(
-      autoPlay: true,
-      mute: true,
+      autoPlay: false,
     ),
   );
   YoutubePlayerController _controller4 = YoutubePlayerController(
     initialVideoId: 'BuPZjBlmyD4',
     flags: YoutubePlayerFlags(
-      autoPlay: true,
-      mute: true,
+      autoPlay: false,
     ),
   );
   YoutubePlayerController _controller5 = YoutubePlayerController(
     initialVideoId: 'io3WdVxwi_Y',
     flags: YoutubePlayerFlags(
-      autoPlay: true,
-      mute: true,
+      autoPlay: false,
     ),
   );
   YoutubePlayerController _controller6 = YoutubePlayerController(
     initialVideoId: '_K7R9lDjPEI',
     flags: YoutubePlayerFlags(
-      autoPlay: true,
-      mute: true,
+      autoPlay: false,
     ),
   );
   YoutubePlayerController _controller7 = YoutubePlayerController(
     initialVideoId: '4MDy2bI4-Kc',
     flags: YoutubePlayerFlags(
-      autoPlay: true,
-      mute: true,
+      autoPlay: false,
     ),
   );
   YoutubePlayerController _controller8 = YoutubePlayerController(
     initialVideoId: 'W2-viqnVRYY',
     flags: YoutubePlayerFlags(
-      autoPlay: true,
-      mute: true,
+      autoPlay: false,
     ),
   );
   YoutubePlayerController _controller9 = YoutubePlayerController(
     initialVideoId: 'whnkEItFEcE',
     flags: YoutubePlayerFlags(
-      autoPlay: true,
-      mute: true,
+      autoPlay: false,
     ),
   );
 

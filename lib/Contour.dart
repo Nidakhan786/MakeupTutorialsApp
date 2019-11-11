@@ -7,71 +7,61 @@ class  contour extends StatelessWidget{
     YoutubePlayerController _controller = YoutubePlayerController(
       initialVideoId: '4qsLJArkAe4',
       flags: YoutubePlayerFlags(
-        autoPlay: true,
-        mute: true,
+        autoPlay: false,
       ),
     );
     YoutubePlayerController _controller1 = YoutubePlayerController(
       initialVideoId: 'usbOjrh4rL0',
       flags: YoutubePlayerFlags(
-        autoPlay: true,
-        mute: true,
+        autoPlay: false,
       ),
     );
     YoutubePlayerController _controller2 = YoutubePlayerController(
       initialVideoId: 'bwuVuDzH3hY',
       flags: YoutubePlayerFlags(
-        autoPlay: true,
-        mute: true,
+        autoPlay: false,
       ),
     );
     YoutubePlayerController _controller3 = YoutubePlayerController(
       initialVideoId: 'A1CT0CwnVYg',
       flags: YoutubePlayerFlags(
-        autoPlay: true,
-        mute: true,
+        autoPlay: false,
       ),
     );
     YoutubePlayerController _controller4 = YoutubePlayerController(
       initialVideoId: 'T9m2bcYmWy8',
       flags: YoutubePlayerFlags(
-        autoPlay: true,
-        mute: true,
+        autoPlay: false,
       ),
     );
     YoutubePlayerController _controller5 = YoutubePlayerController(
       initialVideoId: 'LMbX26CPHwM',
       flags: YoutubePlayerFlags(
-        autoPlay: true,
-        mute: true,
+        autoPlay: false,
       ),
     );
     YoutubePlayerController _controller6 = YoutubePlayerController(
       initialVideoId: 'oQjtfBA7wcE',
       flags: YoutubePlayerFlags(
-        autoPlay: true,
-        mute: true,
+        autoPlay: false,
       ),
     );
     YoutubePlayerController _controller7 = YoutubePlayerController(
       initialVideoId: '7iTbyCftvqo',
       flags: YoutubePlayerFlags(
-        autoPlay: true,
-        mute: true,
+        autoPlay: false,
       ),
     );
     YoutubePlayerController _controller8= YoutubePlayerController(
       initialVideoId: 'Mv7F6Q6WLco',
       flags: YoutubePlayerFlags(
-        autoPlay: true,
-        mute: true,
+        autoPlay: false,
       ),
     );
     YoutubePlayerController _controller9 = YoutubePlayerController(
       initialVideoId: 'iNzjuT6SKcg',
       flags: YoutubePlayerFlags(
-        autoPlay: true,
-        mute: true,
+        autoPlay: false,
       ),
     );
     return Scaffold(

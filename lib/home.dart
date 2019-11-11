@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:youtube_player/youtube_player.dart';
 import 'Contour.dart';
 import 'Highlighter.dart';
 import 'eyemakeup.dart';
@@ -309,13 +308,13 @@ class  lipmakeup extends StatelessWidget{
                     child: Column(
                       children: <Widget>[
                         new Text('Video 1'),
-                        YoutubePlayer (
-                          source: 'https://www.youtube.com/watch?v=_jylrAXW82U',
-                          aspectRatio: 16/9,
-                          showThumbnail: true,
-                          quality: YoutubeQuality.HD,
-
-                        ),
+//                        YoutubePlayer (
+//                          source: 'https://www.youtube.com/watch?v=_jylrAXW82U',
+//                          aspectRatio: 16/9,
+//                          showThumbnail: true,
+//                          quality: YoutubeQuality.HD,
+//
+//                        ),
                       ],
                     ),
                   ),
