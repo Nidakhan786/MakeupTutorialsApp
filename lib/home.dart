@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'Contour.dart';
+import 'Foundation.dart';
 import 'Highlighter.dart';
+import 'blush.dart';
+import 'bronzor.dart';
+import 'concealer.dart';
 import 'eyemakeup.dart';
 import 'lipmakeup.dart';
+import 'makeupstyle.dart';
+import 'makeuptips.dart';
 
 List<StaggeredTile> _staggeredTiles = const <StaggeredTile>[
   const StaggeredTile.count(1, 1),
@@ -295,71 +301,8 @@ class _makeup extends StatelessWidget {
 }
 
 
-class  foundation extends StatelessWidget{
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Foundation"),
-      ),
-    );
-  }
-
-}
-class  concealer extends StatelessWidget{
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Concealor"),
-      ),
-    );
-  }
-
-}
 
 
-class  makeuptips extends StatelessWidget{
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Makeuptips"),
-      ),
-    );
-  }
 
-}
-class  makeupstyle extends StatelessWidget{
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("MakeupStyle"),
-      ),
-    );
-  }
 
-}
-class  blush extends StatelessWidget{
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Blush"),
-      ),
-    );
-  }
 
-}
-class  bronzor extends StatelessWidget{
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Bronzor"),
-      ),
-    );
-  }
-
-}

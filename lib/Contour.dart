@@ -67,6 +67,7 @@ class  contour extends StatelessWidget{
     return Scaffold(
         appBar: AppBar(
           title: Text("Contour"),
+          backgroundColor: Colors.pinkAccent,
         ),
         body: new Padding(
             padding: const EdgeInsets.only(top: 20.0,right: 12.0,left: 12.0,bottom: 20.0),
