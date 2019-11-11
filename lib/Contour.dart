@@ -69,15 +69,21 @@ class  contour extends StatelessWidget{
           title: Text("Contour"),
         ),
         body: new Padding(
-          padding: const EdgeInsets.only(top: 12.0),
+            padding: const EdgeInsets.only(top: 20.0,right: 12.0,left: 12.0,bottom: 20.0),
     child: new SingleChildScrollView(
           child:Column(
             children: <Widget>[
               new Card(
                 child: Column(
                   children: <Widget>[
-                    new Text('Video 1'),
-
+                    new Padding(padding: const EdgeInsets.all(20.0)),
+//                    new Text('Video 1',
+//                      textAlign: TextAlign.center,
+//                      overflow: TextOverflow.ellipsis,
+//                      style: TextStyle(
+//                      fontStyle: FontStyle.italic,
+//                      fontSize: 28.0),
+//                    ),
                 YoutubePlayer(
                   controller: _controller,
                   showVideoProgressIndicator: true,
@@ -88,7 +94,8 @@ class  contour extends StatelessWidget{
               new Card(
                 child: Column(
                   children: <Widget>[
-                    new Text('Video 1'),
+                    new Padding(padding: const EdgeInsets.all(20.0)),
+                   // new Text('Video 1'),
                     YoutubePlayer(
                       controller: _controller1,
                       showVideoProgressIndicator: true,
@@ -100,7 +107,8 @@ class  contour extends StatelessWidget{
               new Card(
                 child: Column(
                   children: <Widget>[
-                    new Text('Video 1'),
+                    new Padding(padding: const EdgeInsets.all(20.0)),
+                   // new Text('Video 1'),
                     YoutubePlayer(
                       controller: _controller2,
                       showVideoProgressIndicator: true,
@@ -112,7 +120,8 @@ class  contour extends StatelessWidget{
               new Card(
                 child: Column(
                   children: <Widget>[
-                    new Text('Video 1'),
+                    new Padding(padding: const EdgeInsets.all(20.0)),
+                  //  new Text('Video 1'),
                     YoutubePlayer(
                       controller: _controller3,
                       showVideoProgressIndicator: true,
@@ -124,7 +133,8 @@ class  contour extends StatelessWidget{
               new Card(
                 child: Column(
                   children: <Widget>[
-                    new Text('Video 1'),
+                    new Padding(padding: const EdgeInsets.all(20.0)),
+                   // new Text('Video 1'),
                     YoutubePlayer(
                       controller: _controller4,
                       showVideoProgressIndicator: true,
@@ -136,7 +146,8 @@ class  contour extends StatelessWidget{
               new Card(
                 child: Column(
                   children: <Widget>[
-                    new Text('Video 1'),
+                    new Padding(padding: const EdgeInsets.all(20.0)),
+                   // new Text('Video 1'),
                     YoutubePlayer(
                       controller: _controller5,
                       showVideoProgressIndicator: true,
@@ -148,7 +159,8 @@ class  contour extends StatelessWidget{
               new Card(
                 child: Column(
                   children: <Widget>[
-                    new Text('Video 1'),
+                    new Padding(padding: const EdgeInsets.all(20.0)),
+                   // new Text('Video 1'),
                     YoutubePlayer(
                       controller: _controller6,
                       showVideoProgressIndicator: true,
@@ -160,7 +172,8 @@ class  contour extends StatelessWidget{
               new Card(
                 child: Column(
                   children: <Widget>[
-                    new Text('Video 1'),
+                    new Padding(padding: const EdgeInsets.all(20.0)),
+                    //new Text('Video 1'),
                     YoutubePlayer(
                       controller: _controller7,
                       showVideoProgressIndicator: true,
@@ -172,7 +185,8 @@ class  contour extends StatelessWidget{
               new Card(
                 child: Column(
                   children: <Widget>[
-                    new Text('Video 1'),
+                    new Padding(padding: const EdgeInsets.all(20.0)),
+                    //new Text('Video 1'),
                     YoutubePlayer(
                       controller: _controller8,
                       showVideoProgressIndicator: true,
@@ -184,7 +198,8 @@ class  contour extends StatelessWidget{
               new Card(
                 child: Column(
                   children: <Widget>[
-                    new Text('Video 1'),
+                    new Padding(padding: const EdgeInsets.all(20.0)),
+                   // new Text('Video 1'),
                     YoutubePlayer(
                       controller: _controller9,
                       showVideoProgressIndicator: true,

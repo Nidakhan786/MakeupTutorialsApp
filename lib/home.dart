@@ -3,6 +3,7 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'Contour.dart';
 import 'Highlighter.dart';
 import 'eyemakeup.dart';
+import 'lipmakeup.dart';
 
 List<StaggeredTile> _staggeredTiles = const <StaggeredTile>[
   const StaggeredTile.count(1, 1),
@@ -293,38 +294,7 @@ class _makeup extends StatelessWidget {
   }
 }
 
-class  lipmakeup extends StatelessWidget{
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(
-          title: Text("Lips Makeup"),
-        ),
-        body: new Padding(
-            padding: const EdgeInsets.only(top: 12.0),
-            child:Column(
-                children: <Widget>[
-                  new Card(
-                    child: Column(
-                      children: <Widget>[
-                        new Text('Video 1'),
-//                        YoutubePlayer (
-//                          source: 'https://www.youtube.com/watch?v=_jylrAXW82U',
-//                          aspectRatio: 16/9,
-//                          showThumbnail: true,
-//                          quality: YoutubeQuality.HD,
-//
-//                        ),
-                      ],
-                    ),
-                  ),
-                ]
-            )
-        )
-    );
-  }
 
-}
 class  foundation extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
