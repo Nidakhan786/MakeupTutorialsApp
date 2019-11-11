@@ -41,32 +41,3 @@ class  highlighter extends StatelessWidget{
   }
 
 }
-/*
-Column(
-children: <Widget>[
-YoutubePlayer (
-source: 'https://www.youtube.com/watch?v=Hj78NqRWNC4',
-aspectRatio: 16/9,
-showThumbnail: true,
-quality: YoutubeQuality.HD,
-
-),
-Container(
-padding: const EdgeInsets.only(top: 30.0),
-),
-YoutubePlayer (
-source: 'https://www.youtube.com/watch?v=jevcLYKNQio&feature=youtu.be',
-aspectRatio: 16/9,
-showThumbnail: true,
-quality: YoutubeQuality.HD,
-
-)
-
-],
-)
-showThumbnail: true,
-source: 'https://www.youtube.com/watch?v=_jylrAXW82U',
-aspectRatio: 16 / 9,
-loop: true,
-
-*/
