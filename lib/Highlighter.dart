@@ -1,202 +1,66 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
+/// Creates list of video players
+class highlighter extends StatefulWidget {
+  @override
+  _highlighterState createState() => _highlighterState();
+}
 
-class  highlighter extends StatelessWidget{
-  YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: '_jylrAXW82U',
-    flags: YoutubePlayerFlags(
-      autoPlay: false,
+class _highlighterState extends State<highlighter> {
+  final List<YoutubePlayerController> _controllers = [
+    '_jylrAXW82U',
+    'Hj78NqRWNC4',
+    'T7P4pGV5YxY',
+    '5niudb1Ywr8',
+    'EaCvDjZi4o0',
+    'HY8zWtTUvEA',
+    'dkqbUer0Lfc',
+    'bcmwZnk9KzY',
+    'Z8TdCfawGQs',
+    'EjQv-2UKQk0',
+
+
+  ]
+      .map<YoutubePlayerController>(
+        (videoId) => YoutubePlayerController(
+      initialVideoId: videoId,
+      flags: YoutubePlayerFlags(
+        autoPlay: false,
+      ),
     ),
-  );
-  YoutubePlayerController _controller1 = YoutubePlayerController(
-    initialVideoId: 'Hj78NqRWNC4',
-    flags: YoutubePlayerFlags(
-      autoPlay: false,
-    ),
-  );
-  YoutubePlayerController _controller2 = YoutubePlayerController(
-    initialVideoId: 'T7P4pGV5YxY',
-    flags: YoutubePlayerFlags(
-      autoPlay: false,
-    ),
-  );
-  YoutubePlayerController _controller3 = YoutubePlayerController(
-    initialVideoId: '5niudb1Ywr8',
-    flags: YoutubePlayerFlags(
-      autoPlay: false,
-    ),
-  );
-  YoutubePlayerController _controller4 = YoutubePlayerController(
-    initialVideoId: 'EaCvDjZi4o0',
-    flags: YoutubePlayerFlags(
-      autoPlay: false,
-    ),
-  );
-  YoutubePlayerController _controller5 = YoutubePlayerController(
-    initialVideoId: 'HY8zWtTUvEA',
-    flags: YoutubePlayerFlags(
-      autoPlay: false,
-    ),
-  );
-  YoutubePlayerController _controller6 = YoutubePlayerController(
-    initialVideoId: 'dkqbUer0Lfc',
-    flags: YoutubePlayerFlags(
-      autoPlay: false,
-    ),
-  );
-  YoutubePlayerController _controller7 = YoutubePlayerController(
-    initialVideoId: 'bcmwZnk9KzY',
-    flags: YoutubePlayerFlags(
-      autoPlay: false,
-    ),
-  );
-  YoutubePlayerController _controller8 = YoutubePlayerController(
-    initialVideoId: 'Z8TdCfawGQs',
-    flags: YoutubePlayerFlags(
-      autoPlay: false,
-    ),
-  );
-  YoutubePlayerController _controller9 = YoutubePlayerController(
-    initialVideoId: 'EjQv-2UKQk0',
-    flags: YoutubePlayerFlags(
-      autoPlay: false,
-    ),
-  );
+  )
+      .toList();
+
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text("Highlighter"),
-          backgroundColor: Colors.pinkAccent,
-        ),
-        body:new Padding(
-        padding: const EdgeInsets.only(top: 20.0,right: 12.0,left: 12.0,bottom: 20.0),
-        child: new SingleChildScrollView(
-        child:Column(
-        children: <Widget>[
-        new Card(
-        child: Column(
-        children: <Widget>[
-        new Padding(padding: const EdgeInsets.all(20.0)),
-        YoutubePlayer(
-        controller: _controller,
-        showVideoProgressIndicator: true,
-        )
-        ],
-        ),
-        ),
-        new Card(
-        child: Column(
-        children: <Widget>[
-    new Padding(padding: const EdgeInsets.all(20.0)),
-    YoutubePlayer(
-    controller: _controller1,
-    showVideoProgressIndicator: true,
-    )
-    ],
-    ),
-    ),
-    new Card(
-    child: Column(
-    children: <Widget>[
-    new Padding(padding: const EdgeInsets.all(20.0)),
-    YoutubePlayer(
-    controller: _controller2,
-    showVideoProgressIndicator: true,
-    )
-    ],
-    ),
-    ),
-    new Card(
-    child: Column(
-    children: <Widget>[
-    new Padding(padding: const EdgeInsets.all(20.0)),
-    YoutubePlayer(
-    controller: _controller3,
-    showVideoProgressIndicator: true,
-    )
-    ],
-    ),
-    ),
-    new Card(
-    child: Column(
-    children: <Widget>[
-    new Padding(padding: const EdgeInsets.all(20.0)),
-    YoutubePlayer(
-    controller: _controller4,
-    showVideoProgressIndicator: true,
-    )
-    ],
-    ),
-    ),
-    new Card(
-    child: Column(
-    children: <Widget>[
-    new Padding(padding: const EdgeInsets.all(20.0)),
-    YoutubePlayer(
-    controller: _controller5,
-    showVideoProgressIndicator: true,
-    )
-    ],
-    ),
-    ),
-    new Card(
-    child: Column(
-    children: <Widget>[
-    new Padding(padding: const EdgeInsets.all(20.0)),
-    YoutubePlayer(
-    controller: _controller6,
-    showVideoProgressIndicator: true,
-    )
-    ],
-    ),
-    ),
-          new Card(
-            child: Column(
-              children: <Widget>[
-                new Padding(padding: const EdgeInsets.all(20.0)),
-                //new Text('Video 1'),
-                YoutubePlayer(
-                  controller: _controller7,
-                  showVideoProgressIndicator: true,
-                )
-
-              ],
-            ),
-          ),
-          new Card(
-            child: Column(
-              children: <Widget>[
-                new Padding(padding: const EdgeInsets.all(20.0)),
-                //new Text('Video 1'),
-                YoutubePlayer(
-                  controller: _controller8,
-                  showVideoProgressIndicator: true,
-                )
-
-              ],
-            ),
-          ),
-          new Card(
-            child: Column(
-              children: <Widget>[
-                new Padding(padding: const EdgeInsets.all(20.0)),
-                // new Text('Video 1'),
-                YoutubePlayer(
-                  controller: _controller9,
-                  showVideoProgressIndicator: true,
-                )
-
-              ],
-            ),
-          ),
-    ]
-    )
-    )
-    )
+      appBar: AppBar(
+        title: Text("Makeuptips"),
+        backgroundColor: Colors.pinkAccent,
+      ),
+      body: ListView.separated(
+        itemBuilder: (context, index) {
+          return YoutubePlayer(
+            key: ObjectKey(_controllers[index]),
+            controller: _controllers[index],
+            actionsPadding: EdgeInsets.only(left: 16.0),
+            bottomActions: [
+              CurrentPosition(),
+              SizedBox(width: 10.0),
+              ProgressBar(isExpanded: true),
+              SizedBox(width: 10.0),
+              RemainingDuration(),
+              FullScreenButton(),
+            ],
+          );
+        },
+        itemCount: _controllers.length,
+        separatorBuilder: (context, _) => SizedBox(height: 10.0),
+      ),
     );
   }
-
 }
+
